@@ -81,7 +81,6 @@ esp_err_t lora_uart_init(void)
         //ESP_LOGE(CONFIG_TAG, "Erro na instalação do driver UART LoRa: %d", ret);
         return ret;
     }
-    
     //ESP_LOGI(CONFIG_TAG, "UART LoRa inicializada - TX: %d, RX: %d", LORA_TXD_PIN, LORA_RXD_PIN);
     return ESP_OK;
 }
