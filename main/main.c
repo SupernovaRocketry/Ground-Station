@@ -85,7 +85,6 @@ esp_err_t lora_uart_init(void)
     return ESP_OK;
 }
 
-
 void init_uart() {
     //ESP_LOGI(UART_TAG, "Configurando UART 0");
 
